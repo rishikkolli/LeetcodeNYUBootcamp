@@ -1,7 +1,5 @@
 class Solution:
-    def lowestCommonAncestor(self, root: 'TreeNode',
-                             p: 'TreeNode',
-                             q: 'TreeNode') -> 'TreeNode':
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
         if root is None or root == p or root == q:
             return root
